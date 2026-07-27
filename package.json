@@ -1,0 +1,26 @@
+{
+  "name": "reedelsevier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "test": "wdio run ./wdio.conf.ts",
+  "test:web": "wdio run ./wdio.conf.ts --spec ./test/web/flights.e2e.spec.ts",
+  "test:api": "wdio run ./wdio.conf.ts --spec ./test/api/booking.api.spec.ts"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/chai": "^4.3.10",
+    "@types/node": "^26.1.1",
+    "@wdio/cli": "^9.30.0",
+    "@wdio/local-runner": "^9.30.0",
+    "@wdio/mocha-framework": "^9.30.0",
+    "@wdio/spec-reporter": "^9.29.1",
+    "axios": "^1.18.1",
+    "chai": "^4.3.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
